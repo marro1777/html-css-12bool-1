@@ -1,0 +1,10 @@
+[class*="col-"] {
+  background-color: pink;
+  text-align: center;
+  line-height: 30vh;
+}
+
+[class*="col-"] > [class*="col-"] {
+  background-color: red;
+  border-color: white;
+}
